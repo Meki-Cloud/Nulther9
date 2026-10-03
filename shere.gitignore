@@ -1,0 +1,35 @@
+# Godot 4+ & Godot 3+ specific ignores
+.godot/
+.import/
+
+# Imported translations
+*.translation
+
+# Mono / C# specific
+.mono/
+data_*/
+mono_project/
+.vs/
+.idea/
+*.csproj
+*.sln
+
+# Export build outputs
+*.apk
+*.aab
+*.a
+*.ar
+*.app
+*.ipa
+*.exe
+*.64
+*.32
+*.x86
+*.x86_64
+*.tpz
+*.pck
+*.zip
+
+# OS / System generated files
+.DS_Store
+Thumbs.db
